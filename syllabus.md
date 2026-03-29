@@ -227,133 +227,93 @@ See [Resources](../resources) for practice exams. All times and content are subj
 
 ---
 
-## Office Hours
+## Grading
 
-To get help on assignments and concepts, course staff will be hosting several office hours per week. Some of these will be held remotely and some will be held in person. See the [Staff Hours](../staffhours) tab of the course website for the most up-to-date schedule and instructions.
+We'll be using the following grading scheme:
 
----
+- 8%: Labs
+- 14%: Homeworks
+- 5%: "Super Homework"
+- 23%: Exam 01 (or Redemption Exams 01, whichever is larger)
+- 23%: Exam 02 (or Redemption Exams 02, whichever is larger)
+- 23%: Exam 03 (or Redemption Exams 03, whichever is larger)
+- 4%: Discussions
+- 1% (Extra credit): Paricipation
 
-## Policies ✏️
+In a typical quarter, the midterm redemption policy has the same effect as a
+traditional "curve", therefore replacing the need for one.  The standard grading
+scale (where an A is 93+, A- is 90+, B+ is 87+, etc.) will be used as a starting
+point, but once all scores are in, we might adjust the cutoffs for each letter grade. These cutoffs can
+only be lowered. For instance, the threshold for an "A" will never be higher
+than 93%.
 
-### Grading
+A+ grades are not awarded according to a threshold. Instead, A+'s are awarded
+to the top 5% of students by overall grade.
 
-Here's how we will compute your grade.
+Note that in order to pass the class, the mean of your two midterm scores (after redemption is taken into account) must be 60% or greater.
 
-| Component | Weight | Notes |
-| --- | --- | --- |
-| Readings | 5% | drop 3 lowest |
-| Participation | 2% | drop 6 lowest, potentially more |
-| Homework | 16% | **none dropped** |
-| Live Coding | 8% | drop 1 lowest |
-| Lab | 8% | drop 1 lowest |
-| Exams | 60% | see the Redemption Policy above |
+**Calculating your grade**: when calculating your lab and homework grades, you
+should weigh each assignment by the points possible on that assignment. In
+other words, the homework and lab parts of your grade are calculated by
+dividing the number of points you earned across all assignments by the number
+of points possible across all assignments. Some homeworks and labs are worth
+more, and some are worth less. This is by design, since some assignments are
+intentionally shorter.
 
-### Regrade Requests 
-
-You can ask for a regrade on lab, homework (or resubmission), and the exams if you believe that the grader made a mistake. Remember that clarity is a part of your score — if you had the right idea but were unable to clearly communicate it, you may still not deserve full credit. We ask that you please submit your regrade requests directly on Gradescope within **4 days** of the assignment grade being released. After that, all grades are set in stone.
-  
-#### Sample Regrade Request
-- Please be specific on what you wish to change: line number and detailed content
-> Hi, in my hw01, I have accidentally used `print()` instead of `return` in my Question 1. I believe it should count as a "Print vs. Return Issues" on the syllabus so that I would like to request a regrade and receive 25% off. \
-Please change my line 20's `print(result)` to `return result`. \
-Thanks!
-
-### A Note on Letter Grades
-
-We will use a standard scale for assigning letter grades: 
-
-|Final Grade Percentage|Final Letter Grade|
-|---|---|
-|\[90% , 100%\]|Some kind of A|
-|\[80% , 90%)|Some kind of B|
-|\[70% , 80%)|Some kind of C|
-|\[60% , 70%)|D|
-|\[0% , 60%)|F|
-
-**Plus and minus cutoffs will be determined at the instructor’s discretion**.
-
----
-
-## COLLABORATION POLICY AND ACADEMIC INTEGRITY ⚠️❗
-
-**The basic rule for DSC 20 is: Work hard. Make use of the expertise of the staff to learn what you need to know to really do well in the course.  Act with integrity, and don't cheat.**
-
-If you do cheat, we will enforce the UCSD Policy on Integrity of Scholarship.  This means: You will fail the course, no matter how small the affected assignment, and the Dean of your college will put you on probation or suspend or dismiss you from UCSD.
-
-Why is academic integrity important?
-Academic integrity is an issue that should be important to all students on campus. When students act unethically by copying someone’s work, taking an exam for someone else, plagiarizing, etc., these students are misrepresenting their academic abilities. This makes it impossible for instructors to give grades and for the University to give degrees that reflect student knowledge. This devalues the worth of a UCSD degree for all students, making it important for the entire campus to band together and enforce that all members of this community are honest and ethical. We want your degree to be meaningful and we want you to be proud to call yourself a graduate of UCSD!
-
-The [Jacobs School of Engineering Code of Academic Integrity](http://www.google.com/url?q=http%3A%2F%2Fmaeweb.ucsd.edu%2Fundergrad%2Fcourses%2Fintegrity&sa=D&sntz=1&usg=AFQjCNGlz4x5OEvugccWorxKhK4-fpoE8w), [the UCSD Policy on Integrity of Scholarship](http://www.google.com/url?q=http%3A%2F%2Facademicintegrity.ucsd.edu%2Fprocess%2Fpolicy.html&sa=D&sntz=1&usg=AFQjCNE3SXZNVviORdYbRcypRot-WcJk0g) and this syllabus list some of the standards by which you are expected to complete your academic work, but your good ethical judgment (or asking us for advice) is also expected as we cannot list every behavior that is unethical or not in the spirit of academic integrity. Ignorance of the rules will not excuse you from any violations.
-
-**AI Use Policy for This Course**
-
-In this course, you are permitted to use AI tools like chatbots (e.g., ChatGPT) and code generators (e.g., CoPilot) **only for studying, reflection, and ideation.** These tools should support your learning, but they should not generate content for assignments. If you choose to use AI, you must track your usage by citing the tool, dates of use, and any relevant prompts. Be prepared to share this process with me as part of your documentation.
-
-This policy helps ensure the skills and strategies taught in this course are mastered without undue reliance on AI. Our focus is on your original work, which allows for meaningful feedback and personal growth. If you ever feel overwhelmed, please reach out to me or the teaching team. We understand the pressures of university life and are committed to working with you to find solutions, including extensions or assignment adjustments.
-
-Fairness and responsible use of AI apply to everyone in this class, including me. I commit to adhering to these same principles when using AI tools in my teaching. Let's work together to create a supportive and successful learning environment!
-
-**What counts as cheating?**
-
-In DSC 20, you can read books, surf the web, talk to your friends and the DSC 20 staff to get help understanding the concepts you need to know to complete your assignments. However, all code must be written by you, together with your partner if you choose to have one (when allowed). Note that a partner is allowed **only** when we explicitly say that groupwork is allowed for a particular assignment. Most assignments in this course must be completed individually.
-
-The following activities are considered cheating and ARE **NOT ALLOWED** in DSC 20 (This is not an exhaustive list):
-
-* Using or submitting code acquired from other students (except your partner, where allowed), the web, or any other resource not officially sanctioned by this course 
-
-* Having any other student complete any part of your assignment on your behalf
-
-* Acquiring exam questions or answers prior to taking an exam
-
-* Completing an assignment on behalf of someone else
-
-* Providing code, exam questions, or solutions to any other student in the course
-
-* Using any external resource on closed-book exams
-
-The following activities are examples of appropriate collaboration and **ARE ALLOWED** in DSC 20:
-
-* Discussing the **general approach** to solving homework problems or a final project (when given)
-
-* Talking about debugging strategies or debugging issues you ran into and how you solved them
-
-* Discussing the answers to exams with other students who have already taken the exam after the exam is complete
-
-* Using code provided in class, by the textbook or any other assigned reading or video, with attribution
-
-* Google searching for documentation on Python 
-
-**How can I be sure that my actions are NOT considered cheating?**
-
-To ensure that you don't encounter any problems, here are some suggestions for completing your work. 
-
-* Don't look at or discuss the details of another student's code for an assignment you are working on, and don't let another student look at your code.
-
-* Don't start with someone else's code and make changes to it, or in any way share code with other students.
-
-* If you are talking to another student about an assignment, don't take notes, and wait an hour afterward before you write any code.
-
-Note: in the discussion above, we are talking about other students that are not your pair programming partner. See the pair programming guidelines for information on working with a partner.
-
-Remember, Academic Integrity is about doing your part to act with Honesty, Trust, Fairness, Respect, Responsibility and Courage. 
+You can use the above information to calculate your current grade at any point
+in the quarter, but we don't post your overall grade calculation until all
+grades are in and we can tell you your grade with certainty. In particular,
+you'll need to decide whether or not to take the redemption exams before the
+Super Homework has been graded.
 
 
----
+## Support and Resources
 
-## Support 🫂
+As instructors, our job is to foster an environment where everyone, regardless
+of identity, feels welcome and is able to focus on learning. If there is
+something we can do in this mission, or if there is something preventing you
+from succeeding in the class, please let us know. If you feel uncomfortable
+speaking with us or are searching for help on a specific
+concern, there are several campus resources
+available to you, including:
 
-### Food Support for Students
+- [UCSD Counseling and Psychological Services (CAPS)](https://caps.ucsd.edu/)
+- [Hub Basic Needs Center](https://thehub.ucsd.edu/)
+- [Office for Students with Disability (OSD)](https://osd.ucsd.edu/)
+- [Office for Prevention of Sexual Harrassment and Discrimination](https://blink.ucsd.edu/HR/policies/sexual/OPHD.html)
 
-If you are skipping and stretching meals, or having difficulties affording or accessing food, you may be eligible for CalFresh, California’s Supplemental Nutrition Assistance Program, that can provide up to $292 a month in free money on a debit card to buy food. Students can apply at [benefitscal.com/r/ucsandiegocalfresh](https://benefitscal.com/ApplyForBenefits/begin/ABOVR?lang=en).
+More generally, if you have *any* concerns about your ability to focus or
+succeed in this course, or just need someone to talk to, *please* contact
+us ASAP and we'll figure something out.
 
-The Hub Basic Needs Center empowers all students by connecting them to resources for food, stable housing and financial literacy. Visit their site at [basicneeds.ucsd.edu](https://basicneeds.ucsd.edu/).
+## OSD Exam Accommodations
 
-### Accommodations
+If you have exam accommodations from the OSD, you should receive an email from
+the data science program that will ask you to provide your availability for
+your accommodated exam. The program will then schedule the exam and notify the
+instructor of its time and location. If you do not receive such an email by the
+end of the second week of classes, please let us know!
 
-Students requesting accommodations for this course due to a disability or current functional limitation must provide a current Authorization for Accommodation (AFA) letter issued by the [Office for Students with Disabilities](https://osd.ucsd.edu) (OSD). This AFA letter should be shared with the instructor and the Data Science OSD Liaison, who can be reached at [dscstudent@ucsd.edu](mailto:dscstudent@ucsd.edu). Please contact us by the end of Week 3 to make sure we can arrange accommodations as needed.
+Please be sure to respond to the email from the data science program; if the
+program does not hear back from you, they will be unable to schedule your
+accommodated exam.
 
-### Diversity and Inclusion
+## Waitlist
 
-We are committed to creating an inclusive learning environment in which individual differences are respected and all students feel comfortable. If you have any suggestions as to how we could create a more inclusive setting, please let us know.
-We also expect that you, as a student in this course, will honor and respect your classmates, abiding by the [UCSD Principles of Community](https://ucsd.edu/about/principles.html). Please understand that others’ backgrounds, perspectives and experiences may be different than your own, and help us to build an environment where everyone is respected and able to thrive.
+If you're on the waitlist, make sure you participate in the class just as if
+you were enrolled (for example, by doing all of the assignments) so that if you
+do get in, you're not behind.
 
+Often, people will ask about their chances of making it off the waitlist. Unfortunately, that can be hard to answer! In some quarters, the waitlist moves
+a lot; in others, not at all.
+
+## FAQ
+
+### Is this class curved?
+
+In a typical quarter, the midterm redemption policy has the same effect as a
+traditional "curve", therefore replacing the need for one.  The standard grading
+scale (where an A is 93+, A- is 90+, B+ is 87+, etc.) will be used as a starting
+point, but once all scores are in, we might adjust the cutoffs for each letter grade. These cutoffs can
+only be lowered. For instance, the threshold for an "A" will never be higher
+than 93%.
