@@ -22,13 +22,6 @@ Welcome to DSC 40B in Winter 2026! This page should answer most of the questions
 
 Here is what the syllabus will cover:
 
-
-## Instructor
-
-- **Dr. Marina Langlois**<br>
-    `malanglois at ucsd.edu`<br>
----
-
 ### Communication 💬
 
 This quarter, we'll be using [Campuswire](https://campuswire.com/c/GEFA09C62/) as our course message board. You will be added at the beginning of the quarter.  If you're not able to access it, please self enroll using a given link, as we'll be making **all course announcements** through it.
@@ -75,11 +68,9 @@ hours](./office_hours.html) page for the schedule and for instructions.
 
 ## Discussions: 4%
 
-Where:
-- SOLIS 104
+- Where: SOLIS 104
 
-When:
-- 2:00-2:50pm
+- When: 2:00-2:50pm
 
 The discussions review the materials from that week's lectures and
 prepare you for the homework. Just as with lecture, topics and techniques introduced
@@ -136,13 +127,6 @@ via Gradescope within *one week* of the grades being released. Note that part
 of your grade is clarity, so if your answer was mostly right but unclear you may
 still not receive full credit.
 
-Note that **regrade** requests are not the same thing as **redemption** requests (though both are
-submitted on Gradescope in the same way). Unfortunately, we cannot offer
-redemption requests for homework problems as we do with lab problems — homework
-problems are typically more complex and require more time to grade, and
-regrading them would take more resources than we have available.
-
-
 ### The "Super Homework"
 
 Instead of a comprehensive final exam, we'll have a comprehensive "Super
@@ -184,9 +168,6 @@ If you have any questions or worries about whether your collaboration
 constitutes a violation of academic integrity, feel free to ask us on
 Campuswire.
 
-
-
-
 **Deadlines and Late Submissions**:
 
 - Homework assignments must be submitted by the midnight 11:59 pm deadline listed on the write-up to be considered on time. You may turn them in as many times as you like before the deadline, but only the most recent submission will be graded, so it's a good habit to submit early and often.
@@ -194,15 +175,11 @@ Campuswire.
 - Homework submissions after 24 hours late will **NOT** be accepted.
 - Lab's deadlines are set.
 
+## Exams
 
-### Midterm Exams (60%)
+### Midterm Exams (69%)
 
-There will be three exams this quarter. All of them are during the lecture time and in person:
-
-- Exam 1 (20%): during lecture, in person.
-- Final (30%): March 14th, 8:00am-11:00am, in person. Location TBA.
-- This category is also capped at 100%.
-
+There will be three exams this quarter. 2 of them are during the lecture time and the third one is during the duscuusion. Please check the scedyle for the dates. 
 
 ### Final Exam
 
@@ -226,7 +203,7 @@ receive an "A". Your midterm scores are now "A" and "B".
 
 The redemption exams will be held on the date scheduled by the registrar: ${ vars.exams.Final.strftime('%A, %B %d') }.
 
-Note that the topics from Lectures 16, 17, and 18 are not on any exam. These will
+Note that the topics from Last Lectures are not on any exam. These will
 instead be tested in the [Super Homework](#the-super-homework).
 
 For the redemption exams, you're allowed one sheet of notes per exam that you're taking.
