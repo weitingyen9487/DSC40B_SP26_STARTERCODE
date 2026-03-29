@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>UPC Barcode Quiz</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 2em;
+      max-width: 800px;
+      margin: auto;
+    }
+    .question {
+      margin-bottom: 1.5em;
+    }
+    .result, .feedback {
+      font-weight: bold;
+      margin-top: 1.5em;
+    }
+  </style>
+</head>
+<body>
+
+<h1>UPC Barcode Quiz</h1>
+
+<form id="quizForm">
+
+  <div class="question">
+    <p>1. How many digits are in a standard UPC-A barcode?</p>
+    <label><input type="radio" name="q1" value="10">10</label><br>
+    <label><input type="radio" name="q1" value="12">12</label><br>
+    <label><input type="radio" name="q1" value="13">13</label>
+  </div>
+
+  <div class="question">
+    <p>2. What is the purpose of guard patterns in a UPC barcode?</p>
+    <label><input type="radio" name="q2" value="Add decoration">Add decoration</label><br>
+    <label><input type="radio" name="q2" value="Separators for scanning">Separators for scanning</label><br>
+    <label><input type="radio" name="q2" value="Check digits">Check digits</label>
+  </div>
+
+  <div class="question">
+    <p>3. Which side uses odd-parity encoding in a UPC-A barcode?</p>
+    <label><input type="radio" name="q3" value="Left">Left</label><br>
+    <label><input type="radio" name="q3" value="Right">Right</label><br>
+    <label><input type="radio" name="q3" value="Both">Both</label>
+  </div>
+
+  <div class="question">
+    <p>4. How many digits are encoded on the left side?</p>
+    <label><input type="radio" name="q4" value="6">6</label><br>
+    <label><input type="radio" name="q4" value="5">5</label><br>
+    <label><input type="radio" name="q4" value="7">7</label>
+  </div>
+
+  <div class="question">
+    <p>5. How many digits are encoded on the right side?</p>
+    <label><input type="radio" name="q5" value="7">7</label><br>
+    <label><input type="radio" name="q5" value="5">5</label><br>
+    <label><input type="radio" name="q5" value="6">6</label>
+  </div>
+
+  <div class="question">
+    <p>6. What is the binary encoding for digit 0 on the left side?</p>
+    <label><input type="radio" name="q6" value="0001101">0001101</label><br>
+    <label><input type="radio" name="q6" value="1110010">1110010</label><br>
+    <label><input type="radio" name="q6" value="1010000">1010000</label>
+  </div>
+
+  <div class="question">
+    <p>7. What does the middle guard (01010) indicate?</p>
+    <label><input type="radio" name="q7" value="Start of barcode">Start of barcode</label><br>
+    <label><input type="radio" name="q7" value="Splits left and right halves">Splits left and right halves</label><br>
+    <label><input type="radio" name="q7" value="End of barcode">End of barcode</label>
+  </div>
+
+  <div class="question">
+    <p>8. What is the role of the check digit?</p>
+    <label><input type="radio" name="q8" value="To make it longer">To make it longer</label><br>
+    <label><input type="radio" name="q8" value="To detect errors">To detect errors</label><br>
+    <label><input type="radio" name="q8" value="To confuse scanners">To confuse scanners</label>
+  </div>
+
+  <div class="question">
+    <p>9. What is the binary encoding for digit 1 on the right side?</p>
+    <label><input type="radio" name="q9" value="1100110">1100110</label><br>
+    <label><input type="radio" name="q9" value="0011001">0011001</label><br>
+    <label><input type="radio" name="q9" value="0111011">0111011</label>
+  </div>
+
+  <div class="question">
+    <p>10. What are the start and end guards in UPC-A?</p>
+    <label><input type="radio" name="q10" value="101">101</label><br>
+    <label><input type="radio" name="q10" value="111">111</label><br>
+    <label><input type="radio" name="q10" value="000">000</label>
+  </div>
+
+  <div class="question">
+    <p>11. Is every 7-bit binary string a valid UPC digit encoding?</p>
+    <label><input type="radio" name="q11" value="Yes">Yes</label><br>
+    <label><input type="radio" name="q11" value="No">No</label>
+  </div>
+
+  <div class="question">
+    <p>12. How many bits are used in total for encoding the digits (excluding guards)?</p>
+    <label><input type="radio" name="q12" value="84">84</label><br>
+    <label><input type="radio" name="q12" value="95">95</label><br>
+    <label><input type="radio" name="q12" value="90">90</label>
+  </div>
+
+  <div class="question">
+    <p>13. What kind of error should be raised if an invalid binary module is passed to your validator?</p>
+    <label><input type="radio" name="q13" value="KeyError">KeyError</label><br>
+    <label><input type="radio" name="q13" value="ValueError">ValueError</label><br>
+    <label><input type="radio" name="q13" value="SyntaxError">SyntaxError</label>
+  </div>
+
+  <div class="question">
+  <p>14. Is the UPC code 036000291452 valid based on its check digit?</p>
+  <label><input type="radio" name="q14" value="Yes">Yes</label><br>
+  <label><input type="radio" name="q14" value="No">No</label>
+</div>
+
+  <div class="question">
+    <p>Would you like to see feedback on your answers?</p>
+    <label><input type="radio" name="showFeedback" value="yes">Yes</label><br>
+    <label><input type="radio" name="showFeedback" value="no" checked>No</label>
+  </div>
+
+  <button type="button" onclick="gradeQuiz()">Submit</button>
+</form>
+
+<div class="result" id="result"></div>
+<div class="feedback" id="feedback"></div>
+
+<script>
+function gradeQuiz() {
+  const answers = {
+    q1: "12",
+    q2: "Separators for scanning",
+    q3: "Left",
+    q4: "6",
+    q5: "6",
+    q6: "0001101",
+    q7: "Splits left and right halves",
+    q8: "To detect errors",
+    q9: "1100110",
+    q10: "101",
+    q11: "No",
+    q12: "84",
+    q13: "ValueError",
+    q14: "Yes",
+  };
+
+  let score = 0;
+  let total = Object.keys(answers).length;
+  let feedbackText = "";
+
+  const showFeedback = document.querySelector('input[name="showFeedback"]:checked').value === "yes";
+
+  for (let key in answers) {
+    const selected = document.querySelector(`input[name="${key}"]:checked`);
+    const correct = answers[key];
+
+    if (selected && selected.value === correct) {
+      score++;
+      if (showFeedback) {
+        feedbackText += `✅ Question ${key.slice(1)}: Correct<br>`;
+      }
+    } else {
+      if (showFeedback) {
+        const studentAnswer = selected ? selected.value : "(no answer)";
+        feedbackText += `❌ Question ${key.slice(1)}: Incorrect (You chose: "${studentAnswer}", Correct: "${correct}")<br>`;
+      }
+    }
+  }
+
+  document.getElementById("result").textContent = `You got ${score} out of ${total} correct.`;
+  document.getElementById("feedback").innerHTML = showFeedback ? feedbackText : "";
+}
+</script>
+
+</body>
+</html>
