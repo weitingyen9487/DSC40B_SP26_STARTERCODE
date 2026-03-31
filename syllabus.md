@@ -113,7 +113,7 @@ opportunity to patch up any misunderstandings.
 
 There will be eight homeworks assigned throughout the quarter, plus one ["super homework"](#the-super-homework) (described below).
 Homeworks will be a mixture of written problems (which are manually graded by our tutor staff) and coding problems (which are autograded).
-Each homework should be handwritten. If not, you will get a warning at firtt, loose 25% for the second violation, 50% for the third one and a 0 for the rest. 
+Each homework should be handwritten. If not, you will get a warning at first, loose 25% for the second violation, 50% for the third one and a 0 for the rest. 
 
 ### Regrade Requests
 
@@ -193,9 +193,9 @@ Under this policy, a bad performance on an earlier exam can be erased by good
 performance on the same material in a later exam.
 
 
-**Example**: You got an "F" on Midterm 1 and a "B" on Midterm 2. You decide to take only the
-first redemption section on the final (though you could have taken both), and you
-receive an "A". Your midterm scores are now "A" and "B".
+**Example**: You got an "F" on Midterm 1,  a "B" on Midterm 2 and an "A" on Midterm 3. You decide to take only the
+first redemption section on the final (though you could have taken all three), and you
+receive an "A". Your midterm scores are now "A", "B" and "A".
 
 The redemption exams will be held on the date scheduled by the registrar.
 
@@ -207,7 +207,7 @@ For the redemption exams, you're allowed one sheet of notes per exam that you're
 
 ### Exam Pass Criterion
 
-In order to pass the class, the mean of your two midterm scores (after
+In order to pass the class, the mean of your three midterm scores (after
 redemption is taken into account) must be 60% or greater.
 
 The reason for this policy is that the exams are the only assessment in this
