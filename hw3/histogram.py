@@ -5,6 +5,22 @@ def histogram(points, bins):
     avoid looping through all bins for each point.
 
     """
-    # TODO: Implement the histogram function
+    n = len(points)
+    result = []
     
-    return None
+    i = 0  # pointer for points
+    
+    for (a, b) in bins:
+        count = 0
+        
+        # count points in current bin [a, b)
+        while i < n and points[i] < b:
+            if points[i] >= a:
+                count += 1
+            i += 1
+        
+        width = b - a
+        density = count / (n * width)
+        result.append(density)
+    
+    return result
