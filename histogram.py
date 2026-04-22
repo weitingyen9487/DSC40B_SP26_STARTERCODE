@@ -8,7 +8,7 @@ def histogram(points, bins):
     n = len(points)
     result = []
     
-    i = 0  # pointer for points
+    i = 0  
     
     for (a, b) in bins:
         count = 0
