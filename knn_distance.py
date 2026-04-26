@@ -1,7 +1,7 @@
 import random
 
 def knn_distance(arr, q, k):
-    # convert to (value, distance) pairs
+    
     pairs = [(x, abs(x - q)) for x in arr]
 
     def partition(left, right, pivot_idx):
